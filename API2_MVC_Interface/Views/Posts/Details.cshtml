@@ -1,0 +1,58 @@
+﻿@model IEnumerable<API2_MVC_Interface.Models.Post>
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+@foreach (var item in Model)
+{
+    <div>
+        <h4>Post</h4>
+        <hr />
+        <dl class="dl-horizontal">
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Subject)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => item.Subject)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.Body)
+            </dt>
+            <dd>
+                @Html.Raw(item.Body)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.AutherName)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => item.AutherName)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.ImageUrl)
+            </dt>
+            <dd>
+                @*@Html.DisplayFor(modelItem => item.ImageUrl)*@
+                <img class="img-rounded" src="@Url.Content("~/images/" + item.ImageUrl)" width="150" height="90" />
+            </dd>
+            @*<dd>
+                    @Html.DisplayFor(model => model.ImageUrl)
+                </dd>*@
+            <dt>
+                @Html.DisplayNameFor(model => item.Category)
+            </dt>
+            <dd>
+                @Html.DisplayFor(modelItem => item.Category.Name)
+            </dd>
+            <dd>
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+        <a asp-action="Index">Back to List</a>
+    </div>
+}
+

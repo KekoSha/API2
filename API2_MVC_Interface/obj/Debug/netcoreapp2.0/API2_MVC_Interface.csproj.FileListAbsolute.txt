@@ -1,0 +1,14 @@
+C:\Test\DotNetCore2_API2\API2_MVC_Interface\bin\Debug\netcoreapp2.0\API2_MVC_Interface.deps.json
+C:\Test\DotNetCore2_API2\API2_MVC_Interface\bin\Debug\netcoreapp2.0\API2_MVC_Interface.runtimeconfig.json
+C:\Test\DotNetCore2_API2\API2_MVC_Interface\bin\Debug\netcoreapp2.0\API2_MVC_Interface.runtimeconfig.dev.json
+C:\Test\DotNetCore2_API2\API2_MVC_Interface\bin\Debug\netcoreapp2.0\API2_MVC_Interface.dll
+C:\Test\DotNetCore2_API2\API2_MVC_Interface\bin\Debug\netcoreapp2.0\API2_MVC_Interface.pdb
+C:\Test\DotNetCore2_API2\API2_MVC_Interface\obj\Debug\netcoreapp2.0\API2_MVC_Interface.csprojResolveAssemblyReference.cache
+C:\Test\DotNetCore2_API2\API2_MVC_Interface\obj\Debug\netcoreapp2.0\API2_MVC_Interface.Properties.Resources.resources
+C:\Test\DotNetCore2_API2\API2_MVC_Interface\obj\Debug\netcoreapp2.0\API2_MVC_Interface.csproj.GenerateResource.Cache
+C:\Test\DotNetCore2_API2\API2_MVC_Interface\obj\Debug\netcoreapp2.0\API2_MVC_Interface.csproj.CoreCompileInputs.cache
+C:\Test\DotNetCore2_API2\API2_MVC_Interface\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Test\DotNetCore2_API2\API2_MVC_Interface\obj\Debug\netcoreapp2.0\API2_MVC_Interface.AssemblyInfoInputs.cache
+C:\Test\DotNetCore2_API2\API2_MVC_Interface\obj\Debug\netcoreapp2.0\API2_MVC_Interface.AssemblyInfo.cs
+C:\Test\DotNetCore2_API2\API2_MVC_Interface\obj\Debug\netcoreapp2.0\API2_MVC_Interface.dll
+C:\Test\DotNetCore2_API2\API2_MVC_Interface\obj\Debug\netcoreapp2.0\API2_MVC_Interface.pdb

@@ -1,0 +1,76 @@
+﻿@model API2_MVC_Interface.Models.Post
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>Post</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label"></label>
+                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="UserId" />
+            <div class="form-group">
+                <label asp-for="Subject" class="control-label"></label>
+                <input asp-for="Subject" class="form-control" />
+                <span asp-validation-for="Subject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Body" class="control-label"></label>
+                @*<input asp-for="Body" class="form-control" />*@
+                <textarea asp-for="Body" class="control-label"></textarea>
+                <span asp-validation-for="Body" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AutherName" class="control-label"></label>
+                <input asp-for="AutherName" class="form-control" />
+                <span asp-validation-for="AutherName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageUrl" class="control-label"></label><br />
+                <img class="img-rounded" src="@Url.Content("~/images/" + Model.ImageUrl)" width="150" height="90" />
+                <input asp-for="ImageUrl" class="form-control" readonly/>
+                @*<span asp-validation-for="ImageUrl" class="text-danger"></span>*@
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+        <Script>
+            tinymce.init({
+                selector: 'textarea',
+                directionality: 'rt1',  //direction of typing
+                //language:'ar_SA',
+                mode: 'textareas',
+                //plugins:"table.contextmenu,paste,-externalplugin"    //control the plugins that I need to run it  inside HTML Editor
+            });
+        </Script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <SCRIPT LANGUAGE="JavaScript">
+            $(document).ready(function () {
+                $("#file").change(function () {
+                    if ($("#file").val() != "") {
+                        $("#fileinput").prop("value", $("#file").val().split('\\').pop());
+                    }
+                });
+            });
+        </SCRIPT>
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }

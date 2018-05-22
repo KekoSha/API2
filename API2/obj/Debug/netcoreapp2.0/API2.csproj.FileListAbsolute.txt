@@ -1,0 +1,13 @@
+C:\Test\DotNetCore2_API2\API2\bin\Debug\netcoreapp2.0\API2.deps.json
+C:\Test\DotNetCore2_API2\API2\bin\Debug\netcoreapp2.0\API2.runtimeconfig.json
+C:\Test\DotNetCore2_API2\API2\bin\Debug\netcoreapp2.0\API2.runtimeconfig.dev.json
+C:\Test\DotNetCore2_API2\API2\bin\Debug\netcoreapp2.0\API2.dll
+C:\Test\DotNetCore2_API2\API2\bin\Debug\netcoreapp2.0\API2.pdb
+C:\Test\DotNetCore2_API2\API2\obj\Debug\netcoreapp2.0\API2.csprojResolveAssemblyReference.cache
+C:\Test\DotNetCore2_API2\API2\obj\Debug\netcoreapp2.0\API2.Properties.Resources.resources
+C:\Test\DotNetCore2_API2\API2\obj\Debug\netcoreapp2.0\API2.csproj.GenerateResource.Cache
+C:\Test\DotNetCore2_API2\API2\obj\Debug\netcoreapp2.0\API2.csproj.CoreCompileInputs.cache
+C:\Test\DotNetCore2_API2\API2\obj\Debug\netcoreapp2.0\API2.AssemblyInfoInputs.cache
+C:\Test\DotNetCore2_API2\API2\obj\Debug\netcoreapp2.0\API2.AssemblyInfo.cs
+C:\Test\DotNetCore2_API2\API2\obj\Debug\netcoreapp2.0\API2.dll
+C:\Test\DotNetCore2_API2\API2\obj\Debug\netcoreapp2.0\API2.pdb

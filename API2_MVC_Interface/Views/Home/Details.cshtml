@@ -1,0 +1,21 @@
+﻿@model API2_MVC_Interface.Models.Post
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="col-md-12 text-center">
+    <img src="@Url.Content("~/"+API2_MVC_Interface.Properties.Resources.ImgFolder+"/"+Model.ImageUrl)" width="450" />
+
+    <div class="caption">
+        <h3>
+            @Html.DisplayFor(modelItem => Model.Subject)
+        </h3>
+        @Html.Raw(Model.Body)
+        <br />
+        The visitor number : @Html.DisplayFor(modelItem => Model.Readers);
+        <br />
+        The Author : @Html.DisplayFor(modelItem => Model.AutherName);
+        <br />
+        The Publication Date : @Html.DisplayFor(modelItem => Model.PublicationDate);
+    </div>
+</div>
